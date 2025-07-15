@@ -35,7 +35,7 @@ const Login = () => {
                                         <input type="text" className="form-control" id="password" placeholder="Password" required name='password' value={input.password} onChange={inputhandler}/>
                                     </div>
 
-                                    <Link to="/a" className="btn btn-primary w-100 text-center">Login</Link>
+                                    <Link to="/h" className="btn btn-primary w-100 text-center">Login</Link>
 
                                 </form>
                             </div>
