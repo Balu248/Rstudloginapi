@@ -32,7 +32,7 @@ const Login = () => {
 
                                     <div className="mb-3">
                                         <label htmlFor="password" className="form-label">Password</label>
-                                        <input type="text" className="form-control" id="password" placeholder="Password" required name='password' value={input.password} onChange={inputhandler}/>
+                                        <input type="password" className="form-control" id="password" placeholder="Password" required name='password' value={input.password} onChange={inputhandler}/>
                                     </div>
 
                                     <Link to="/h" className="btn btn-primary w-100 text-center">Login</Link>
