@@ -26,7 +26,7 @@ const Deletestudent = () => {
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-lg-12 col-xl-12 col-xxl-12">
                     <div className="row g-3">
-                        <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <div className="col col-12 col-sm-12 col-md-12 col-lg-6 col-lg-6 col-xl-6 col-xxl-6">
                             <label htmlFor="" className="form-label">Roll No</label>
                             <input type="number" className="form-control" name='roll_number' value={input.roll_number} onChange={inputhandler}/>
                         </div>
